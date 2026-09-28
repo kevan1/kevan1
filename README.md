@@ -1,6 +1,6 @@
 # Hi, I'm Kevin Anrique 👋
 
-**Full-stack & DevOps engineer** from Argentina, based in Berlin. I build products end to end: mobile and web apps, the backend and database behind them, and the infrastructure, CI and tests that keep them shippable. I'm currently **Founder & CTO of [Cachin](https://cachin.app)**, a LATAM-first payments app, and I'm learning ML by shipping LLM features into real products. **3× hackathon winner** (Solana, Midnight, Cardano).
+**Full-stack & DevOps engineer** from Argentina, based in Berlin. I build products end to end: mobile and web apps, the backend and database behind them, and the infrastructure, CI and tests that keep them shippable. I'm currently **Founder & CTO of [Cachin](https://cachin.app)**, a LATAM-first payments app, and I'm learning ML by shipping LLM features into real products. **3× hackathon winner** (Solana, Midnight, Cardano). Member of **[Superteam Argentina](https://github.com/SuperteamAR)**. Solana is my main chain.
 
 ## What I do
 
@@ -8,7 +8,7 @@
 - **Data & security by default.** Postgres/Supabase with Row-Level Security, roles from trusted JWT claims, DB-level constraints and quotas, and audit trails. I test the security boundary instead of just trusting it.
 - **DevOps.** Docker, GitHub Actions, Vercel, EAS builds, GCP (Cloud SQL / GCS), Linux ops, Ansible-managed workstations. My background is infra and IT operations: CI/CD, monitoring, ELK, AWS/GCP.
 - **Applied AI.** LLM agents and structured extraction with Gemini, RAG with LangChain + OpenAI + vector DB, and spec-driven, test-first workflows with AI coding agents.
-- **Web3 payments & privacy.** Solana (USDC, Solana Pay, fee sponsorship), embedded wallets and passkeys (Privy, Turnkey), Cardano (Aiken), Midnight (zero-knowledge / Compact), Base.
+- **Web3, Solana first.** Solana is my main chain: USDC payments, Solana Pay, fee sponsorship and liquid staking (STEAK.NET). I've also shipped on Cardano (Aiken), Midnight (zero-knowledge / Compact) and Base, with Pyth oracles and embedded wallets and passkeys (Privy, Turnkey).
 
 ## Tech stack
 
@@ -32,6 +32,8 @@
   An accessible, browser-based configurator and firmware flasher for a single-button ATtiny85 controller. I implemented the Micronucleus USB bootloader protocol in TypeScript over **WebUSB**, patched the firmware config block (version, action, checksum) in the browser, and wrote reproducible ATtiny85 firmware builds. Tests cover firmware patching, the protocol and the UI. Nothing leaves the browser.
 - **[STEAK.NET](https://github.com/kevan1/steak-net)** · [live](https://steak.net)
   A liquid staking dApp for STEAKSOL on Solana. Users swap SOL or any liquid staking token into STEAKSOL with best-route quotes from Sanctum and Jupiter. Built with Next.js 14, TypeScript, Tailwind and the Solana Wallet Adapter.
+- **[Guards](https://github.com/kevan1/guards-ui)** · [live](https://guards-ui.vercel.app)
+  An oracle-aware treasury risk dashboard built at Pythathon Buenos Aires with Nico Fernandez ([@f0x1777](https://github.com/f0x1777)). It scores a treasury against a risk ladder using Pyth price, EMA and confidence data, and simulates protective swaps. This repo is the frontend showcase and runs on simulated data.
 - **[kevan.ar](https://github.com/kevan1/kevan.ar)** · [live](https://kevan.ar)
   My portfolio, built with Next.js and MDX. It includes a **RAG chatbot** over the site content (LangChain, OpenAI embeddings, Astra DB, Upstash) and a Resend contact flow. Embedding generation runs separately from the production build.
 - **[Midnight ZK-KYC](https://github.com/kevan1/midnight-zk-kyc)**
@@ -59,7 +61,7 @@
 - 🏆 **MaskBid: Winner, Transparency category, NMKR Berlin Hackathon, Jul 2024.** A Cardano commit-reveal tender system: companies post RFPs, contractors commit hidden bids, and bids are revealed after the deadline. Aiken, Next.js, TypeScript, Maestro. · [demo](https://private-tender.vercel.app) · [code](https://github.com/MartinSchere/maskbid)
 - 🎖️ **Buena Hackday: Honorable mention.**
 
-<sub>Other hackathon builds: Samurai de Cardano (Cardano Summit 2025, Aiken treasury/crowdfunding validators) · [Neorypto](https://github.com/kevan1/Necrypto-AlephHackathon) (Aleph 2025, Base MiniKit inheritance app) · [Mimic Protocol](https://github.com/kevan1/mimic-hackathon) (2025, on-chain automation) · Cachin at Colosseum Frontier (2026).</sub>
+<sub>Other hackathon builds: [Guards](https://github.com/kevan1/guards-ui) (Pythathon Buenos Aires 2026, Pyth treasury risk engine) · Samurai de Cardano (Cardano Summit 2025, Aiken treasury/crowdfunding validators) · [Neorypto](https://github.com/kevan1/Necrypto-AlephHackathon) (Aleph 2025, Base MiniKit inheritance app) · [Mimic Protocol](https://github.com/kevan1/mimic-hackathon) (2025, on-chain automation) · Cachin at Colosseum Frontier (2026).</sub>
 
 ## Background
 
