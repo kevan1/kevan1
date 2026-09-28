@@ -32,7 +32,7 @@
   An accessible, browser-based configurator and firmware flasher for a single-button ATtiny85 controller. I implemented the Micronucleus USB bootloader protocol in TypeScript over **WebUSB**, patched the firmware config block (version, action, checksum) in the browser, and wrote reproducible ATtiny85 firmware builds. Tests cover firmware patching, the protocol and the UI. Nothing leaves the browser.
 - **[kevan.ar](https://github.com/kevan1/kevan.ar)** · [live](https://kevan.ar)
   My portfolio, built with Next.js and MDX. It includes a **RAG chatbot** over the site content (LangChain, OpenAI embeddings, Astra DB, Upstash) and a Resend contact flow. Embedding generation runs separately from the production build.
-- **[Midnight KYC](https://github.com/kevan1/kyc_midnight)**
+- **[Midnight ZK-KYC](https://github.com/kevan1/midnight-zk-kyc)**
   A privacy-preserving KYC platform on the Midnight Network. Users prove age, country and liveness through **zero-knowledge proofs** and on-chain commitments without revealing the underlying data. Built with Next.js 16, TypeScript and the Midnight Wallet SDK.
 - **[dotfiles](https://github.com/kevan1/dotfiles)** / **[mac setup playbook](https://github.com/kevan1/kevan-setup-mac-playbook)**
   My workstation as code: zsh config and Ansible provisioning.
@@ -53,7 +53,7 @@
 ## Hackathons
 
 - 🥇 **SOLxAR &lt;&gt; Shipyard Hackathon: 1st place (2,500 USDC), Oct 2025.** Argentina track of the Colosseum Cypherpunk global Solana hackathon, run by Superteam. Project: an early version of **Cachin**, a Solana USDC payments app (Expo, Turnkey embedded wallets). · [results](https://superteam.fun/earn/listing/solxar-lessgreater-shipyard-hackathon)
-- 🥇 **Midnight Hackathon Buenos Aires: 1st place, Aug 2025**, with team **Blockenfy** (IOHK / Cardano Foundation). A privacy-preserving KYC dApp that proves age and country eligibility with zero-knowledge proofs, without revealing the data on-chain. Compact + TypeScript. · [hackathon code](https://github.com/joacolinares/kyc-midnight) · [my follow-up](https://github.com/kevan1/kyc_midnight)
+- 🥇 **Midnight Hackathon Buenos Aires: 1st place, Aug 2025** (IOHK / Cardano Foundation). I contributed to the winning project, a privacy-preserving KYC dApp that proves age and country eligibility with zero-knowledge proofs, without revealing the data on-chain. Compact + TypeScript. · [original repo](https://github.com/joacolinares/kyc-midnight) · [my contributions](https://github.com/kevan1/kyc-midnight-hackathon) · [my follow-up](https://github.com/kevan1/midnight-zk-kyc)
 - 🏆 **MaskBid: Winner, Transparency category, NMKR Berlin Hackathon, Jul 2024.** A Cardano commit-reveal tender system: companies post RFPs, contractors commit hidden bids, and bids are revealed after the deadline. Aiken, Next.js, TypeScript, Maestro. · [demo](https://private-tender.vercel.app) · [code](https://github.com/MartinSchere/maskbid)
 - 🎖️ **Buena Hackday: Honorable mention.**
 
