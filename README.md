@@ -30,6 +30,8 @@
 
 - **[AdMouse Flasher](https://github.com/kevan1/admouse-flasher)** · [live](https://admouse-flasher.vercel.app)
   An accessible, browser-based configurator and firmware flasher for a single-button ATtiny85 controller. I implemented the Micronucleus USB bootloader protocol in TypeScript over **WebUSB**, patched the firmware config block (version, action, checksum) in the browser, and wrote reproducible ATtiny85 firmware builds. Tests cover firmware patching, the protocol and the UI. Nothing leaves the browser.
+- **[STEAK.NET](https://github.com/kevan1/steak-net)** · [live](https://steak.net)
+  A liquid staking dApp for STEAKSOL on Solana. Users swap SOL or any liquid staking token into STEAKSOL with best-route quotes from Sanctum and Jupiter. Built with Next.js 14, TypeScript, Tailwind and the Solana Wallet Adapter.
 - **[kevan.ar](https://github.com/kevan1/kevan.ar)** · [live](https://kevan.ar)
   My portfolio, built with Next.js and MDX. It includes a **RAG chatbot** over the site content (LangChain, OpenAI embeddings, Astra DB, Upstash) and a Resend contact flow. Embedding generation runs separately from the production build.
 - **[Midnight ZK-KYC](https://github.com/kevan1/midnight-zk-kyc)**
